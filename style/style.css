@@ -22,7 +22,7 @@ header h1 {
 	font-weight: 600;
 }
 header p {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	font-size: 1.2em;
 }
 hr {
@@ -68,12 +68,15 @@ h2 {
 }
 h3 {
 	margin: 10px 0 20px 0;
-	font-weight: 600;
+	font-weight: normal;
 	font-size: 1.4em;
 }
 #photo h2,
 #photo p {
 	margin-bottom: 40px;
+}
+#photo h2, footer h2 {
+	font-weight: 600;
 }
 article:nth-of-type(1) {
 	background-image: linear-gradient(to top,#e3eeff 0%,#f3e7e9 99%,#f3e7e9 100%);
@@ -125,9 +128,19 @@ article:nth-of-type(6) h2 {
 article .col-lg-6 {
 	padding-bottom: 15px;
 }
-footer, footer a, footer .btn {
+footer {
+	padding: 80px 0;
+}
+footer, footer a:link, footer a:visited, footer .btn {
 	background-color: #222;
 	color: #808080;
+}
+footer .btn {
+	line-height: 40px;
+}
+footer a:hover, footer a:active {
+	text-decoration: none;
+	color: #FFF;
 }
 footer h2 {
 	margin-bottom: 20px;
