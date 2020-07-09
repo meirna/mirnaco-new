@@ -25,7 +25,7 @@
             </div>
         </div>
     </nav>
-    <header class="container-fluid">
+    <header class="container-fluid vh-100">
         <div class="row">
             <div class="col-12">
                 <picture>
@@ -294,6 +294,7 @@
     <script type="text/javascript">
         const navToggle = document.querySelector('.navbar-toggler');
         const navLinks = document.querySelectorAll('.nav-link');
+        const navScrolled = document.querySelectorAll('.navbar-scrolled');
 
         navToggle.addEventListener('click', () => {
             document.body.classList.toggle('nav-open');
