@@ -117,7 +117,7 @@ sections:
         image: assets/img/members/person7.jpg
         url: '#'
 
-  - type: timeline.html
+<!--   - type: timeline.html
     section_id: timeline
     title: Major Achievements!
     background_style: bg-dark text-primary
@@ -136,7 +136,7 @@ sections:
           An Coaching started
         text: >-
           We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+          and future plans to them. As a result , interested people joined us! -->
 
   - type: contact.html
     section_id: contacts
