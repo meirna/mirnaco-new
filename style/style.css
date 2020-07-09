@@ -30,7 +30,7 @@ section, footer {
 
 /*From Bootstrap: */
 .vh-100 {
-  height: 100vh;
+  height: 100vh !important;
 }
 .img-fluid {
   max-width: 100%;
