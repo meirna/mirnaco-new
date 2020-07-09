@@ -1,0 +1,14 @@
+header {
+	text-align: center;
+}
+hr {
+	max-width: 50px;
+	border-color: #494850;
+	border-width: 1px;
+}
+
+/*From Bootstrap: */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}

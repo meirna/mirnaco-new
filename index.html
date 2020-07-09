@@ -1,496 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Photo et cetera">
-    <meta property="og:title" content="Mirna Pibernik">
-    <meta property="og:description" content="Photo et cetera">
-    <meta property="og:image" content="http://mirna.co/img/mirna-co.png">
-    <meta property="og:url" content="http://mirna.co/">
-    <meta name="twitter:card" content="summary_large_image">
-
     <title>Mirna Pibernik</title>
-
-    <!-- Bootstrap Core CSS -->
-    <!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
-
-    <!-- Custom Fonts -->
-    <!-- <link rel="dns-prefetch" href="https://fonts.googleapis.com"> -->
-    <link href="fontawesome-free-5.13.1-web/scss/fontawesome.scss" rel="stylesheet" type="text/css">
-    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700|Fira+Sans:700' rel='stylesheet' type='text/css'> -->
-
-    <!-- Plugin CSS -->
-    <link href="http://github.com/meirna/meirna.github.com/blob/master/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="creative.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Mirna Pibernik</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#photography">Photography</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#videography">Videography</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
+<body>
+    <nav>
     </nav>
-
-    <header style="background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%); color: #494850;">
-        <div class="header-content">
-            <div class="header-content-inner">
-                <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive img-circle" src="img/profile.jpg" alt="" style="display:block;margin:0 auto 20px;width:150px;height:150px;">
-                </div>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <picture>
+                    <source type="image/webp" srcset="img/profile.webp">
+                    <source type="image/jpeg" srcset="img/profile.jpg">
+                    <img src="img/profile.jpg" alt="">
+                </picture>
             </div>
-                <h1 id="homeHeading" style="font-weight:600;">Hi.</h1>
-                <hr style="border-color:#494850;border-width:1px;">
-                <p style="color: #494850; font-weight:400;">I'm learning photography and stuff.</p>
-                <a href="#photography" class="btn btn-primary btn-xl page-scroll" style="color: #494850;">View portfolio</a>
-                <a href="#contact" class="btn btn-primary btn-xl page-scroll" style="color: #494850;">Contact me</a>
+            <div class="col-12">
+                <h1>Hi.</h1>
+                <hr>
+                <p>I'm learning photography and stuff.</p>
+                <a href="#photography">View portfolio</a>
+                <a href="#contact">Contact me</a>
             </div>
         </div>
     </header>
-
-    <section class="bg-primary" id="photography">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="section-heading" style="font-family:'Open Sans';">Photography</h2>
-                    <hr class="light">
-                    <p class="text-faded" style="font-weight:400;">These are some of my photos. If you'd like me to take photos for your project or want to use some of my existing work, feel free to <a href="#contact" class="page-scroll">contact me</a>.</p>
-                    <a href="https://www.flickr.com/mirnapibernik" class="page-scroll btn btn-default btn-xl sr-button" target="_blank" rel="noreferrer" alt="Mirna Pibernik's Flickr profile" style="margin:15px 0 0 0"><i class="fa fa-flickr" aria-hidden="true"></i> More photos</a>
-                </div>
+    <section class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Photography</h2>
+                <p>These are some of my photos. If you'd like me to take photos for your project or want to use some of my existing work, feel free to contact me.</p>
             </div>
         </div>
     </section>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://www.flickr.com/photos/mirnapibernik/28576836983/" target="_blank" rel="noreferrer" class="portfolio-box">
-                    	<picture>
-                    		<source type="image/webp" srcset="img/photography/photo1.webp">
-                    		<source type="image/jpeg" srcset="img/photography/photo1.jpg">
-                    		<img src="img/photography/photo1.jpg" class="img-responsive" alt="Reception of the EUG2016 delegation by the President of the Republic of Croatia Kolinda Grabar-Kitarović.">
-                    	</picture>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">
-                                    View on Flickr
-                                    </div>
-                                </div>
-                            </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://flic.kr/p/Lt5R5M" target="_blank" rel="noreferrer" class="portfolio-box">
-                    	<picture>
-                    		<source type="image/webp" srcset="img/photography/photo2.webp">
-                    		<source type="image/jpeg" srcset="img/photography/photo2.jpg">
-                    		<img src="img/photography/photo2.jpg" class="img-responsive" alt="A portrait of Red Bull Athlete Marijo Možnik.">
-                    	</picture>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">
-                                    View on Flickr
-                                    </div>
-                                </div>
-                            </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://flic.kr/p/J6C6be" target="_blank" rel="noreferrer" class="portfolio-box">
-                    	<picture>
-                    		<source type="image/webp" srcset="img/photography/photo3.webp">
-                    		<source type="image/jpeg" srcset="img/photography/photo3.jpg">
-                    		<img src="img/photography/photo3.jpg" class="img-responsive" alt="A portrait of a friend in Rijeka.">
-                    	</picture>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">
-                                    View on Flickr
-                                    </div>
-                                </div>
-                            </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://flic.kr/p/L2DttL" rel="noreferrer" target="_blank" class="portfolio-box">
-                    	<picture>
-                    		<source type="image/webp" srcset="img/photography/photo6.webp">
-                    		<source type="image/jpeg" srcset="img/photography/photo6.jpg">
-                    		<img src="img/photography/photo6.jpg" class="img-responsive" alt="EUG2016 Reception.">
-                    	</picture>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">
-                                    View on Flickr
-                                    </div>
-                                </div>
-                            </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://flic.kr/p/LTeHw5" rel="noreferrer" target="_blank" class="portfolio-box">
-                    	<picture>
-                    		<source type="image/webp" srcset="img/photography/photo5.webp">
-                    		<source type="image/jpeg" srcset="img/photography/photo5.jpg">
-                    		<img src="img/photography/photo5.jpg" class="img-responsive" alt="On the ferry to Vrbnik.">
-                    	</picture>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">
-                                    View on Flickr
-                                    </div>
-                                </div>
-                            </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://flic.kr/p/L6Qntr" rel="noreferrer" target="_blank" class="portfolio-box">
-                    	<picture>
-                    		<source type="image/webp" srcset="img/photography/photo4.webp">
-                    		<source type="image/jpeg" srcset="img/photography/photo4.jpg">
-                    		<img src="img/photography/photo4.jpg" class="img-responsive" alt="Crikvenica beach at dusk.">
-                    	</picture>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">
-                                    View on Flickr
-                                    </div>
-                                </div>
-                            </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://www.flickr.com/photos/mirnapibernik/28378224048/" rel="noreferrer" target="_blank" class="portfolio-box">
-						<picture>
-							<source type="image/webp" srcset="img/photography/photo7.webp">
-                    		<source type="image/jpeg" srcset="img/photography/photo7.jpg">
-							<img src="img/photography/photo7.jpg" class="img-responsive" alt="Luul - snimanje albuma.">
-						</picture>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">
-                                    View on Flickr
-                                    </div>
-                                </div>
-                            </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://www.flickr.com/photos/mirnapibernik/22457050077/" rel="noreferrer" target="_blank" class="portfolio-box">
-                    	<picture>
-                    		<source type="image/webp" srcset="img/photography/photo8.webp">
-                    		<source type="image/jpeg" srcset="img/photography/photo8.jpg">
-                    		<img src="img/photography/photo8.jpg" class="img-responsive" alt="Glencoe climb.">
-                    	</picture>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">
-                                    View on Flickr
-                                    </div>
-                                </div>
-                            </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://www.flickr.com/photos/mirnapibernik/41530107844/" rel="noreferrer" target="_blank" class="portfolio-box">
-                    	<picture>
-                    		<source type="image/webp" srcset="img/photography/photo9.webp">
-                    		<source type="image/jpeg" srcset="img/photography/photo9.jpg">
-                    		<img src="img/photography/photo9.jpg" class="img-responsive" alt="Šimun Matišić - snimanje albuma.">
-                    	</picture>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">
-                                    View on Flickr
-                                    </div>
-                                </div>
-                            </div>
-                    </a>
-                </div>
+    <section class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://www.flickr.com/photos/mirnapibernik/28576836983/" target="_blank" rel="noreferrer">
+                    <picture>
+                        <source type="image/webp" srcset="img/photo1.webp">
+                        <source type="image/jpeg" srcset="img/photo1.jpg">
+                        <img src="img/photo1.jpg" class="img-fluid" alt="Reception of the EUG2016 delegation by the President of the Republic of Croatia Kolinda Grabar-Kitarović">
+                    </picture>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://flic.kr/p/Lt5R5M" target="_blank" rel="noreferrer">
+                    <picture>
+                        <source type="image/webp" srcset="img/photo2.webp">
+                        <source type="image/jpeg" srcset="img/photo2.jpg">
+                        <img src="img/photo2.jpg" class="img-fluid" alt="Portrait of Red Bull Athlete Marijo Možnik">
+                    </picture>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://flic.kr/p/J6C6be" target="_blank" rel="noreferrer">
+                    <picture>
+                        <source type="image/webp" srcset="img/photo3.webp">
+                        <source type="image/jpeg" srcset="img/photo3.jpg">
+                        <img src="img/photo3.jpg" class="img-fluid" alt="Portrait of a friend in Rijeka">
+                    </picture>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://flic.kr/p/L2DttL" target="_blank" rel="noreferrer">
+                    <picture>
+                        <source type="image/webp" srcset="img/photo6.webp">
+                        <source type="image/jpeg" srcset="img/photo6.jpg">
+                        <img src="img/photo6.jpg" class="img-fluid" alt="EUG2016 Reception">
+                    </picture>  
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://flic.kr/p/LTeHw5" target="_blank" rel="noreferrer">
+                    <picture>
+                        <source type="image/webp" srcset="img/photo5.webp">
+                        <source type="image/jpeg" srcset="img/photo5.jpg">
+                        <img src="img/photo5.jpg" class="img-fluid" alt="Ferry to Vrbnik">
+                    </picture>
+                </a>
+            </div>
+           <div class="col-lg-4 col-sm-6">
+                <a href="https://flic.kr/p/L6Qntr" target="_blank" rel="noreferrer">
+                    <picture>
+                        <source type="image/webp" srcset="img/photo4.webp">
+                        <source type="image/jpeg" srcset="img/photo4.jpg">
+                        <img src="img/photo4.jpg" class="img-fluid" alt="Crikvenica beach at dusk">
+                    </picture>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://www.flickr.com/photos/mirnapibernik/28378224048/" target="_blank" rel="noreferrer">
+                    <picture>
+                        <source type="image/webp" srcset="img/photo7.webp">
+                        <source type="image/jpeg" srcset="img/photo7.jpg">
+                        <img src="img/photo7.jpg" class="img-fluid" alt="Marko Vuković">
+                    </picture>
+                </a>
+            </div>
+          <div class="col-lg-4 col-sm-6">
+                <a href="https://www.flickr.com/photos/mirnapibernik/22457050077/" target="_blank" rel="noreferrer">
+                    <picture>
+                        <source type="image/webp" srcset="img/photo8.webp">
+                        <source type="image/jpeg" srcset="img/photo8.jpg">
+                        <img src="img/photo8.jpg" class="img-fluid" alt="Glencoe climb">
+                    </picture>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://www.flickr.com/photos/mirnapibernik/41530107844/" target="_blank" rel="noreferrer">
+                    <picture>
+                        <source type="image/webp" srcset="img/photo9.webp">
+                        <source type="image/jpeg" srcset="img/photo9.jpg">
+                        <img src="img/photo9.jpg" class="img-fluid" alt="Šimun Matišić">
+                    </picture>
+                </a>
             </div>
         </div>
     </section>
-
-<!--     <section class="bg-primary" id="instagram">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="section-heading">Instagram</h2>
-                    <hr class="light">
-                    <p class="text-faded">Say hi on Instagram:</p>
-                    <p class="text-faded"><i>Click on an image to view it on Instagram.</i></p>
-                    <a href="https://www.instagram.com/divlja" class="btn btn-default btn-xl sr-button" target="_blank" alt="Mirna Pibernik on Instagram" style="margin:15px 0"><i class="fa fa-instagram" aria-hidden="true"></i> My Instagram profile</a>
-                    <div style="padding-top:30px;" id="instafeed"></div>
-                </div>
-            </div>
-        </div>
-    </section> --> 
-
-    <div id="videography">
-    <section class="video" id="combat">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="video" id="combat"><a class="heading" href="https://www.youtube.com/watch?v=Ts4D1wnLDo4" target="_blank" rel="noreferrer">EUSA Combat Championships 2019</a></h2>
-                    <h3 class="video" id="combat">Aftermovie</h3>
-                    <div class="row">
-                        <div class="col-lg-6" style="padding-bottom:15px;">
-                            <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ts4D1wnLDo4?theme=light&color=white&cc_load_policy=1&rel=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen></iframe></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <p class="strong text-left">Video recap of an international sports competition held in Zagreb.</p>
-                            <p class="thin"><a href="https://combatsports2019.eusa.eu/" target="_blank" rel="noreferrer" style="color:#494850;">European Universities Combat Championships</a> was the biggest event hosted by the <a href="https://www.eusa.eu/" target="_blank" style="color:#494850;">European Universities Sports Association (EUSA)</a> in 2019.</p>
-                            <p class="thin"> 1300 participants from 404 European universities and 36 countries competed in karate, judo, taekwondo and kickboxing at four locations in Zagreb, Croatia. Coordinated by the <a href="https://www.unisport.hr/" style="color:#494850;" target="_blank" rel="noreferrer">Croatian Academic Sports Federation</a>.</p>
-                            <p class="strong">My roles: camera, editing/post-production.</p>
-                            <a class="btn btn-outline-primary" href="https://www.facebook.com/eusacombat/videos/641827912892998/" target="_blank" rel="noreferrer" id="btn-combat">Watch on Facebook</a>
-                            <a class="btn btn-outline-primary" href="https://www.youtube.com/watch?v=Ts4D1wnLDo4" target="_blank" rel="noreferrer" id="btn-combat">Watch on Youtube</a>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </section>
-    <section class="video" id="simun">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="video" id="simun"><a class="heading" href="https://vimeo.com/272740655" target="_blank" rel="noreferrer">Making of 'Invocation' by Šimun Matišić Sextet</a></h2>
-                    <h3 class="video" id="simun">Promo video</h3>
-                    <div class="row">
-                        <div class="col-lg-6" style="padding-bottom:15px;">
-                            <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://player.vimeo.com/video/272740655?color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>" frameborder="0" allowfullscreen></iframe></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <p class="strong text-left">Scenes from an 8-hour live recording session of a jazz album.</p>
-                            <p class="thin">Six outstanding jazz musicians got together at HRT Zvonimir Bajsić studio to record an album written by 20-year old vibraphonist Šimun Matišić. Eight complex yet beautifully melodic compositions were recorded live in a total of 8 hours, making it a joy to witness and document.</p>
-                            <p class="thin">The album was recorded and mixed by Luka Grubišić-Čabo at SoundBrick Studio in Zagreb, and mastered at Abbey Road.</p>
-                            <p class="strong">My roles: camera and AV production assistant.</p>
-                            <a class="btn btn-outline-primary" href="https://www.amazon.com/INVOCATION-ŠIMUN-MATIŠIĆ-SEXTET/dp/B07FJZRKDR" target="_blank" rel="noreferrer" id="btn-simun">Album on Amazon</a>
-                            <a class="btn btn-outline-primary" href="https://www.flickr.com/photos/mirnapibernik/albums/72157696450962274" target="_blank" rel="noreferrer" id="btn-simun">Photos from session</a>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </section> 
-    <section class="video" id="rsd">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="video" id="rsd"><a class="heading" href="https://www.youtube.com/watch?v=6OVfQcNU3O4&index=2&list=PLP1k-YH3pZ0J1inPAdU1Yrc9p-XBjOLAb" target="_blank" rel="noreferrer">(What's Wrong with) Record Store Day</a></h2>
-                    <h3 class="video" id="rsd">Short documentary</h3>
-                    <div class="row">
-                        <div class="col-lg-6" style="padding-bottom:15px;">
-                            <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/6OVfQcNU3O4?list=PLP1k-YH3pZ0J1inPAdU1Yrc9p-XBjOLAb?theme=light&color=white&cc_load_policy=1&rel=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen></iframe></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <p class="strong text-left">Short documentary addressing some of the criticism Record Store Day has received in recent years.</p>
-                            <p class="thin">A friend and I attended several Record Store Day events in Glasgow. We spoke to visitors and organizers of the various events.</p>
-                            <p class="thin">Among others, we interviewed Alex Main, owner of a well known Glaswegian independent record shop/non-profit organisation New Hellfire Club. Another interviee is Hector Barbour (a.k.a. techno producer Denis Sulta), staff member of Rubadub, a store that has <a href="http://www.factmag.com/2015/04/15/glasgow-rubadub-rejects-record-store-day-havoc-rival-event/" target="blank" rel="noreferrer" class="video-link"><u>famously</u></a> declared its own Rubadub Shop Day in place of Record Store Day.</p>
-                            <p class="strong">My roles: camera, script, voiceover, editing/post-production.</p>
-                            <a class="btn btn-outline-primary" href="https://www.youtube.com/watch?v=6OVfQcNU3O4&index=2&list=PLP1k-YH3pZ0J1inPAdU1Yrc9p-XBjOLAb" target="_blank" rel="noreferrer" id="btn-rsd">Watch on Youtube</a>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </section>
-    <section class="video" id="stablo">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="video" id="stablo"><a class="heading" href="https://www.youtube.com/watch?v=k9Q0_CxRWmg&index=2&list=PLP1k-YH3pZ0J1inPAdU1Yrc9p-XBjOLAb" target="_blank" rel="noreferrer">Making of 'Stablo' by Nina Romić</a></h2>
-                    <h3 class="video" id="stablo">Short documentary</h3>
-                    <div class="row">
-                        <div class="col-lg-6" style="padding-bottom:15px;">
-                            <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/k9Q0_CxRWmg?list=PLP1k-YH3pZ0J1inPAdU1Yrc9p-XBjOLAb?theme=light&color=white&cc_load_policy=1&rel=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen></iframe></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <p class="strong text-left">During a period of four months, I followed Croatian singer-songwriter Nina Romić and her band as they rehearsed and recorded Nina’s third studio album ‘Stablo.'</p>
-                            <p class="thin">When the album was finished, I recorded an interview with Nina reflecting on the whole process of creating the album. This interview functions as the voiceover that carries the documentary.</p>
-                            <p class="thin">The video premiered in time with the album's concert release. 'Stablo' has been <a href="http://www.aquarius-publishing.com/2015/01/nine-romics-stablo-is-one-of-23-albums-up-for-european-independent-album-of-the-year-award/?lang=en" target="_blank" rel="noreferrer" class="video-link"><u>nominated</u></a> for IMPALA’s European Independent Album of the Year Award.</p>
-                            <p class="strong text-left">My roles: camera, narrative, editing/post-production, audio mixing.</p>
-                            <a class="btn btn-outline-primary" href="https://www.youtube.com/watch?v=k9Q0_CxRWmg&index=2&list=PLP1k-YH3pZ0J1inPAdU1Yrc9p-XBjOLAb" target="_blank" rel="noreferrer" alt="Watch Making of Stablo on Youtube" id="btn-stablo">Watch on Youtube</a>
-                            <a class="btn btn-outline-primary" href="https://youtu.be/k3ajU9WSuZw?list=PLspFdl4k4IKGhd7ehT8ycZs8nbF4DWSpr" target="_blank" rel="noreferrer" alt="Listen to Stablo by Nina Romić" id="btn-stablo">Hear the album</a>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </section>
-    <section class="video" id="vodic">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="video" id="vodic"><a class="heading" href="https://youtu.be/Rfz8U5QjXxY?list=PLKHEq_8E92welCiuZFgGtTZKidCzTfJzd" target="_blank" rel="noreferrer">Vodič za prosječnog birača</a></h2>
-                    <h3 class="video" id="vodic">Vlog-style & animation Youtube series</h3>
-                    <div class="row">
-                        <div class="col-lg-6" style="padding-bottom:15px;">
-                            <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="http://www.youtube.com/embed/Rfz8U5QjXxY?list=PLKHEq_8E92welCiuZFgGtTZKidCzTfJzd?theme=light&color=white&cc_load_policy=1&rel=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen></iframe></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <p class="strong text-left">Leading up to the 2015 general election in Croatia, I made a series of videos explaining basic political terms (series title in English: <em>A guide for the average voter</em>).</p>
-                            <p class="thin">The series is a mixture of vlog-style videos and motion graphics. The videos are lighthearted and (hopefully) humorous, as my aim was to make the various political terms often used by the mainstream media more accessible to wider audiences.</p>
-                            <p class="thin">The project got picked up by several mainstream and student media outlets in Croatia.</p>
-                            <p class="strong text-left">My roles: camera/animation, performance, script, production, promotion.</p>
-                            <a class="btn btn-outline-primary" href="https://youtu.be/UhVGm-k695w?list=PLKHEq_8E92welCiuZFgGtTZKidCzTfJzd" target="_blank" rel="noreferrer" id="btn-vodic">Watch the series</a>
-                            <a class="btn btn-outline-primary" data-toggle="modal" data-target="#VodicModal" id="btn-vodic">Read press coverage</a>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </section>
-    <section class="video" id="indie">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="video" id="indie"><a class="heading" href="https://www.youtube.com/watch?v=Hn0dzMS0fnY&list=PLP1k-YH3pZ0J1inPAdU1Yrc9p-XBjOLAb&index=7" target="_blank" rel="noreferrer">The Indie Compilation Story</a></h2>
-                    <h3 class="video" id="indie">Short documentary</h3>
-                    <div class="row">
-                        <div class="col-lg-6" style="padding-bottom:15px;">
-                            <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/Hn0dzMS0fnY?theme=light&color=white&cc_load_policy=1&rel=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen></iframe></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <p class="strong text-left">For this project I collaborated with Croatia Records, Croatia’s largest record label in telling the story behind their release <em><u><a href="http://shop.crorec.hr/crorec.hr/izdanje.php?OBJECT_ID=753038" target="_blank" rel="noreferrer" class="video-link">The Indie Compilation</a></u></em>.</p>
-                            <p class="thin">This involved arranging and filming interviews with all 12 artists (bands and solo acts) featured on the compilation, and editing over 25 hours of footage into a 7 minute documentary feature. The video was published by a Croatian pop culture magazine <em><u><a href="http://www.ravnododna.com/video-prica-o-indie-kompilaciji-tragovi/" target="_blank" class="video-link">Ravno do dna</a></u></em>.</p>
-                            <p class="strong text-left">My roles: production coordinator, camera, narrative, post-production.</p>
-                            <a class="btn btn-outline-primary" href="http://www.amazon.com/RAZNI-IZVODJACI-Tragovi-Indie-Kompilacija/dp/B00H4Z5AN6" target="_blank" rel="noreferrer" id="btn-indie">Amazon</a>
-                            <a class="btn btn-outline-primary" href="https://itunes.apple.com/us/album/tragovi-indie-kompilacija/id748713283" target="_blank" rel="noreferrer" id="btn-indie">iTunes</a>
-                            <a class="btn btn-outline-primary" href="http://www.discogs.com/Various-Tragovi-Indie-Kompilacija/release/5218877" target="_blank" rel="noreferrer" id="btn-indie">Discogs</a>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </section>
-    </div>
-    <aside class="bg-dark" id="contact">
-        <div class="container">
-            <div class="call-to-action col-lg-12">
-                <h2 class="section-heading" id="contact">Contact</h2>
-                <div class="row">
-                    <div class="col-lg-6 text-left" style="padding-bottom:30px">
-                        <p class="contact">For business enquiries, email me at <strong>mirna</strong> <span style="filter:opacity(.6); -webkit-filter: opacity(.6);">(at)</span> <strong>mirna</strong> <span style="filter:opacity(.6); -webkit-filter: opacity(.6);">[dot]</span> <strong>co</strong>.</p>
-                        <p class="contact">Alternatively, use this:</p>
-                        <a href="https://goo.gl/forms/xpraug2igzv4TfCE2" class="btn btn-outline-primary z-depth-1" rel="noreferrer" alt="Contact form" id="btn-contact">Contact form</a>
-                    </div>
-                    <div class="col-lg-6" style="margin-bottom:50px">
-                        <a href="http://www.facebook.com/mirnapibernik" target="_blank" rel="noreferrer" class="social" id="fb"><i class="fab fa-facebook fa-3x social" aria-hidden="true"></i></a>
-                        <a href="https://www.instagram.com/divlja/" target="_blank" rel="noreferrer" class="social" id="in"><i class="fab fa-instagram fa-3x social" aria-hidden="true"></i></a>
-                        <a href="https://twitter.com/pibernick" target="_blank" rel="noreferrer" class="social" id="tw"><i class="fa fa-twitter-square fa-3x social" aria-hidden="true"></i></a>
-                        <a href="https://mirnapibernik.tumblr.com" target="_blank" rel="noreferrer" class="social" id="tm"><i class="fa fa-tumblr-square fa-3x social" aria-hidden="true"></i></a>
-                    </div>
-                 </div>
-            </div>
-        </div>
-      </aside>
-
-<!-- Modal -->
-<div class="modal fade" id="VodicModal" tabindex="-1" role="dialog" aria-labelledby="VodicModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="VodicModalLabel">Press coverage of 'Vodič za prosječnog birača'</h4>
-      </div>
-      <div class="modal-body">
-        <p><i>Click through the links below to read the press coverage of the 'Vodič za prosječnog birača' project.</i></p>
-        <ul>  
-        <li><p><a href="http://www.vecernji.hr/izbori2015/studentica-iz-glasgowa-pripremila-je-vodic-za-prosjecne-birace-uoci-parlamentarnih-izbora-1034693" target="_blank" rel="noreferrer" class="video-link"><b>Vecernji.hr</b>: <br>'Jesu li izbori ona nedjelja kad se na Fejsu ismijavam onima koji su glasovali?'</a></p></li>
-        <li><p><a href="http://mojfaks.com/vijesti/istrazite-kome-dajete-svoj-glas-na-izborima-intervju-s-mirnom-pibernik" target="_blank" rel="noreferrer" class="video-link"><b>MojFaks.com</b>: <br>'Istražite kome dajete svoj glas na izborima: intervju s Mirnom Pibernik'</a></p></li>
-        <li><p><a href="http://srednja.hr/Studenti/Vijesti/VIDEO-Studentica-iz-Zagreba-napravila-kratki-vodic-za-one-koji-prvi-put-izlaze-na-izbore" target="_blank" rel="noreferrer" class="video-link"><b>Srednja.hr</b>: <br>'Studentica iz Zagreba napravila kratki vodič za one koji prvi put izlaze na izbore'</a></p></li>
-        <li><p><a href="http://www.portaloko.hr/clanak/video-sto-mirna-misli-o-izborima-jesu-li-izbori-ona-nedjelja-kad-se-na-fejsu-ismijavam-onima-koji/0/80128/" target="_blank" rel="noreferrer" class="video-link"><b>PortalOko.hr</b>: <br>'ŠTO MIRNA MISLI O IZBORIMA: Jesu li izbori ona nedjelja kad se na Fejsu ismijavam onima koji su glasovali?'</a></p></li>
-        <ul>    
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <!-- jQuery -->
-    <script src="/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="/scrollreveal.min.js"></script>
-    <script src="/jquery.magnific-popup.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
-
-    <!-- Instafeed -->
-<!--     <script src="js/instafeed.min.js"></script>
-    <script>
-    var feed = new Instafeed({
-        get: 'user',
-        userId: '223043938',
-        clientId: 'a9b9c8b243f64c0987612bc35d523cf1',
-        accessToken: '223043938.a9b9c8b.cecf202210334704ba2fe5d7b7ae46b0',
-        template: '<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" style="padding-bottom:20px;"><a href="{{link}}" target="_blank"><img src="{{image}}" class="img-fluid"></a></div>',
-        resolution: 'thumbnail',
-        limit: '8'
-    });
-    feed.run();  
-    </script> -->
-    <!-- Google Analytics -->
-    <script> 
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-54091351-1', 'auto');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-    </script>
-
 </body>
 
 </html>
