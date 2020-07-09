@@ -12,6 +12,8 @@ header > div {
 	height: 100%;
 }
 header img {
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 }
 hr {
