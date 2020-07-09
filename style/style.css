@@ -119,6 +119,9 @@ article:nth-of-type(5) .btn {
 article:nth-of-type(5) h2 {
 	color: #FAD834;
 }
+article:nth-of-type(6) {
+	background: url("../img/indie-bg.jpg") no-repeat center !important;
+}
 article:nth-of-type(6) .btn {
 	color: #000;
 }
