@@ -231,6 +231,14 @@ header p {
 	margin-bottom: 40px;
 	font-size: 1.2em;
 }
+header *::selection {
+	color: #FFF;
+	background-color: #494850;
+}
+nav *::selection {
+	background-color: #6C757D;
+	color: #FFF;
+}
 hr {
 	font-weight: 300;
 	max-width: 50px;
@@ -304,6 +312,10 @@ h3 {
 #photo .btn:hover {
 	background-color: rgba(248, 250, 252, 0.5);
 }
+#photo *::selection, #video *::selection, #indie *::selection {
+	color: #FFF;
+	background-color: #373A3E;
+}
 article a:link, article a:visited,
 #photo a:link, #photo a:visited  {
 	font-weight: 600;
@@ -327,6 +339,10 @@ article a:hover, article a:active,
 #simun .btn {
 	color: #DDDBCB;
 }
+#simun *::selection {
+	color: #1C1C1C;
+	background-color: #FFF;
+}
 #rsd {
 	background: url("img/rsd.jpg");
 	background-size: cover;
@@ -339,6 +355,10 @@ article a:hover, article a:active,
 #rsd h2 {
 	color: #FAD834;
 }
+#rsd *::selection {
+	color: #01417F;
+	background-color: #FFF;
+}
 #nina {
 	background: url("img/nina.jpg");
 	background-size: cover;
@@ -347,6 +367,10 @@ article a:hover, article a:active,
 }
 #nina .btn {
 	color: #592D18;
+}
+#nina *::selection {
+	color: #FFF;
+	background-color: #592D18; 
 }
 #vodic {
 	background-color: #B30076;
@@ -357,6 +381,10 @@ article a:hover, article a:active,
 }
 #vodic h2 {
 	color: #FAD834;
+}
+#vodic *::selection {
+	color: #B30076;
+	background-color: #FFF
 }
 #indie {
 	background: url("img/indie.jpg");
@@ -391,6 +419,10 @@ footer .btn:hover {
 footer h2 {
 	margin-bottom: 20px;
 }
+footer *::selection {
+	color: #222;
+	background-color: #E5E5E5;
+}
 /*Bootstrap*/
 .vh-100 {
   height: 100vh !important;
@@ -422,25 +454,6 @@ footer h2 {
 }
 .embed-responsive-16by9::before {
   padding-top: 56.25%;
-}
-.card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
-}
-.card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 1.25rem;
 }
 .navbar {
   position: relative;
